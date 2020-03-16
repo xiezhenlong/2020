@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>ESCH homepage</title>
+
+    <link href="../Css/mobilemain.css" rel="stylesheet" />
+    <script src="../JS/jquery.js"></script>
+    <script src="../JS/web3.min.js"></script>
+    <script src="../JS/public.js"></script>
+</head>
+<body style="background-color: #5777ce;">
+    <form runat="server">
+    <div class="wrap">
+        <div class="main">
+            <div class="ES_logo">
+                <span onclick="changelan('en')">
+                    <img src="../Images/ch.png" /></span><img src="../Images/logo.png" />
+                <div class="clear"></div>
+            </div>
+            <div><a href="#">
+                <img src="../Images/en_banner.jpg" width="100%" /></a></div>
+            <div class="jmtopnews">
+                <div id="tgBigox">
+                    <div id="tgGoox">
+                                                 Contract ESCH28 day
+
+
+
+Participation rules
+1. The participation amount is 2-20 ETH, and 2-10 ETH will be opened in the early stage. The 2-20 ETH will be opened according to the volume of the ETH. The monthly income rate is 18.9% - 27%, and the income rate could reach to 27% if you get to the limited holding amount of your account.
+After 7 days, you can sell 10% of the contract principal, and the ETH will be sent to your own cold wallet immediately;
+After 14 days, you can sell 20% of the contract principal, and the ETH will be sent to your own cold wallet immediately;
+After 21 days, 65% of the contract principal can be sold, and the ETH will be sent to your own cold wallet immediately;
+After 28 days, if you sell a total of 23.9% including 5% of the principal and 18.9% of the static interest and buy ETH that is equal to or more than the last contract, you will then enter the next cycle. Meanwhile, 23.9% of the selling will be sent to your own cold wallet.
+Remarks:
+① One wallet is limited to one contract with 24 hours. You will get a yield of 0.9% in a full 24 hours and last for 21 days.
+② 1% ESCH Token will be automatically taken as the fee for entering and exiting (for example, you will be charged for 100 Tokens for each investment in 10 ETH). The ESTH is purchased when completing the contrast. 1 ETH can exchange 100 ESTH. The exchange starts from 0.1 ETH. The ETH you used to purchase ESTH will be sent to the wallet and the fee to open a contrast is based on the value of ESTH. 
+2. When the total amount of the contract pool decreases from high to low, equivalent value of ESCH will be distributed to you when the total amount of ETH reaches to 50000.
+3. When the total volume of ETH reaches 500000, the investment income decreases by 20% over the original basic income and income on that day is 0.72%.
+4. Investing 1-20 ETH leads to a monthly income of 15.12% - 21.6%, and the income rate could reach to 21.6% if you get to the limited holding amount of your account.
+After 7 days, you can sell 10% of the contract principal, and the ETH will be sent to your cold wallet immediately;
+After 14 days, you can sell 20% of the contract principal, and the ETH will be sent to your cold wallet immediately;
+After 21 days, 65% of the contract principal can be sold, and the ETH will be sent to your cold wallet immediately;
+After 28 days, if you sell a total of 20.12% including 5% of the principal and 15.12% of the static interest and buy ETH that is equal to or more than the last contract, you will then enter the next cycle. Meanwhile, 20.12% of the selling will be sent to your own cold wallet.
+5. The growth of the user data and the expanding of the platform will launch diversified financial products for users to choose and to make their financial management.
+                </div>
+            </div>
+            <script type="text/javascript">
+                var cars = $("#tgGoox").width();
+                var i = 0;
+                function start() {
+                    i--;
+                    if (i <= -cars) {
+                        i = 1 * cars;
+                        document.getElementById('tgGoox').style.right = -cars + 'px';
+                    } else {
+                        document.getElementById('tgGoox').style.left = i + 'px';
+                    }
+                    setTimeout(start, 50);
+                }
+                onload = function () { setTimeout(start, 100) };
+            </script>
+            <div class="ES_titlebox" style="padding-bottom: 50px;">
+                <div class="deption_title"><a href="HeYueRule.html"><span>more&nbsp;<img src="../Images/jt_pic.png" height="15px" /></span>Rule description</a></div>
+                <div class="deption_title1">
+                    <div class="title1">
+                      The concept of the Smart Contract appeared earlier than the Blockchain. The concept first appeared in 1996 and defined as a set of agreements in digital forms, including the agreements on which contract participants can execute these agreements.
+                    </div>
+                    <div>
+                        <div class="contract_left"><a href="javascript:HeYueAdd();">JOIN</a></div>
+                        <div class="contract_right"><a href="HeYueRule.html">Contract rules</a></div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="deption_title2">
+                    <ul>
+                        <li>
+                            <a href="HYstatus.html">
+                                <div class="pic">
+                                    <img src="../Images/index_pic1.png" height="90px" /></div>
+                                <div class="title">Current status</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Contract_sy.html">
+                                <div class="pic">
+                                    <img src="../Images/index_pic2.png" height="90px" /></div>
+                                <div class="title">revenue</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Nodereward.html">
+                                <div class="pic">
+                                    <img src="../Images/index_pic3.png" height="90px" /></div>
+                                <div class="title">Node reward</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <input type="hidden" id="hfaddress" />
+    
+    <script type="text/javascript">
+        function HeYueAdd() {
+            var add = getCookie("UserAddressESCH");
+            $.ajax({
+                url: adminurl + "/ajax/ajax.ashx?action=HeYueAdd&address=" + add,
+                type: "get",
+                success: function (msg) {
+                    if (msg == "NO") {
+                        location.href = "XuDanHeYue.html";
+                    } else {
+                        location.href = "HeYueAdd.html";
+                    }
+                }
+            })
+        }
+
+        var abi = [{
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_ad3",
+                    "type": "address"
+                }
+            ],
+            "name": "cE",
+            "outputs": [
+                {
+                    "name": "_MsAdToN",
+                    "type": "uint32"
+                },
+                {
+                    "name": "_MsFa",
+                    "type": "address"
+                },
+                {
+                    "name": "_MsBo",
+                    "type": "uint32"
+                },
+                {
+                    "name": "_MsSon",
+                    "type": "uint32"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        }]
+        var address = "0x34848f3c3934733d3ebc6f82489346592566c777";
+        var myContract = web3.eth.contract(abi).at(address);
+        $(document).ready(function () {
+            //var lang = getCookie("EschLanguage");
+
+            //if (lang == "ch") {
+            //    location.href = "/index.html";
+            //} else {
+            //    setCookie("EschLanguage", "en");
+            //}
+            $(".pnav").each(function (i) {
+                var nowImg = "../Images/icon_" + i + ".png";
+                var CurrImg = "../Images/icon_" + i + "_" + i + ".png";
+                $(this).click(function () {
+                    $(".subnav").hide();
+                    $(".pnavImg").each(function (j) {
+                        $(this).attr("src", "../Images/icon_" + j + ".png");
+                    });
+
+                    if ($(this).attr("class").indexOf("pnavCurr") < 0) {
+                        $(".pnav").removeClass("pnavCurr");
+                        $(this).addClass("pnavCurr");
+                        $(this).find("img.pnavImg").attr("src", CurrImg);
+                        $(".subnav").eq(i).slideDown({ duration: 200, easing: 'linear' });
+                    }
+                    else {
+                        $(this).removeClass("pnavCurr");
+                        $(this).find("img.pnavImg").attr("src", nowImg);
+                        $(".subnav").eq(i).hide();
+                    }
+                });
+                var ahref = $(this).find("a").attr("href").toLowerCase();
+
+                if (ahref.indexOf('?') > 0)
+                    ahref = ahref.substring(0, ahref.indexOf('?'));
+                if (window.location.pathname.toLowerCase() == ahref) {
+                    $(this).addClass("pnavCurr");
+                    $(this).find("img.pnavImg").attr("src", CurrImg);
+                }
+            });
+            var locat = window.location.pathname.toLowerCase();
+
+        });
+        window.addEventListener('load', function () {
+            if (typeof web3 !== 'undefined') {
+                web3 = new Web3(web3.currentProvider);
+                if (web3.currentProvider.isMetaMask == true) {
+                    $("#env").html("网页MetaMask使用中...");
+                } else {
+                    $("#env").html("未使用网页MetaMask... ");
+                }
+            } else {
+                $("#env").html("未提供WEB3通道，请检查您的设置...");
+            }
+            web3.eth.getAccounts(function (err, accounts) {
+                if (accounts.length == 0) {
+                    $("#account").html("请解锁！");
+                } else {
+                    $("#account").html(accounts);
+                    if (accounts != $("#hfaddress").val()) {
+                        $("#hfaddress").val(accounts[0]);
+
+                    }
+                    login( accounts[0]);
+                    myContract.cE(accounts[0], function (err, res) {
+                        if (!err) {
+                            $("#ZTAccount").html(res[1]);
+                            var ZTAccount = res[1];
+                            var number = parseInt(res[0]);
+                            var MsBo = parseInt(res[2]);
+                            var childcount = parseInt(res[3]);
+
+                            updateuser($("#hfaddress").val(), ZTAccount, number, MsBo, childcount);
+                        }
+                    })
+                }
+            });
+        })
+    </script>
+    <div class="navbox">
+        <div class="navli">
+            <div class="pnav">
+                <a class="nava" href="index.html">
+                    <img class="pnavImg" src="../Images/icon_0.png" height="30px" />
+                    <p class="txt">Home</p>
+                </a>
+            </div>
+            <div class="subnav">
+            </div>
+        </div>
+        <div class="navli">
+            <div class="pnav">
+                <a class="nava" href="BuyEsch.html">
+                    <img class="pnavImg" src="../Images/icon_1.png" height="30px" />
+                    <p class="txt">Buy ESCH</p>
+                </a>
+            </div>
+            <div class="subnav">
+            </div>
+            </div>
+    
+        </div>
+        </form>
+    
+</body>
+</html>
+
